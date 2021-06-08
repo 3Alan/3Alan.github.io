@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>Hackintosh B460M-MORTAR WIFI 黑苹果安装记录</title>
+      <link href="/posts/3901d9e/"/>
+      <url>/posts/3901d9e/</url>
+      
+        <content type="html"><![CDATA[<p>Hackintosh B460M-MORTAR WIFI + i5-10400 黑苹果安装</p><a id="more"></a><p>这篇文章主要记录我安装黑苹果的过程。</p><h2 id="版本信息"><a href="#版本信息" class="headerlink" title="版本信息"></a>版本信息</h2><ul><li>MacOS 11.3.1</li><li>引导方式 <code>opencore</code></li></ul><h2 id="硬件配置"><a href="#硬件配置" class="headerlink" title="硬件配置"></a>硬件配置</h2><table><thead><tr><th>组件</th><th>型号</th></tr></thead><tbody><tr><td>主板</td><td>微星 B460M MORTAR Wifi</td></tr><tr><td>CPU</td><td>Intel i5 10400</td></tr><tr><td>内存</td><td>金士顿骇客神条RGB灯条 8GB * 2 2666MHz</td></tr><tr><td>显卡</td><td>Intel UHD Graphics 630（CPU自带核显）</td></tr><tr><td>SSD</td><td>铠侠 RC10 512GB * 2</td></tr><tr><td>电源</td><td>振华LEADEX G 550</td></tr><tr><td>机箱</td><td>爱国者 M2 白色</td></tr><tr><td>散热</td><td>乔思伯CR-1000 白色</td></tr></tbody></table><h2 id="功能测试"><a href="#功能测试" class="headerlink" title="功能测试"></a>功能测试</h2><ul><li><input checked="" disabled="" type="checkbox"> 睡眠/唤醒</li><li><input checked="" disabled="" type="checkbox"> 所有USB端口</li><li><input checked="" disabled="" type="checkbox"> 核显硬件加速</li><li><input checked="" disabled="" type="checkbox"> 声卡输出</li><li><input disabled="" type="checkbox"> 蓝牙（查找资料好像需要usb定制？（小白不太懂））</li><li><input disabled="" type="checkbox"> wifi（好像有点不太稳定，有时会掉线）</li><li><input disabled="" type="checkbox"> windows和mac时间不同步问题</li></ul><h2 id="下载镜像并制作镜像U盘"><a href="#下载镜像并制作镜像U盘" class="headerlink" title="下载镜像并制作镜像U盘"></a>下载镜像并制作镜像U盘</h2><ol><li>黑果小兵的镜像<code>11.3.1</code>，下载完成后使用WinMD5检查镜像对比md5值是否一样，这一步的目的是为了保证下载的镜像完整。</li><li>使用<code>balenaEtcher</code>制作安装镜像(以管理员身份运行)。</li><li>安装完成后使用磁盘管理工具<code>diskgenius</code>将适合自己的<code>EFI</code>文件替换掉U盘的<code>EFI</code>文件。</li></ol><h2 id="设置BIOS"><a href="#设置BIOS" class="headerlink" title="设置BIOS"></a>设置BIOS</h2><ul><li>设置U盘为第一引导项</li></ul><h2 id="安装MacOS"><a href="#安装MacOS" class="headerlink" title="安装MacOS"></a>安装MacOS</h2><ol><li>进入OC引导页面</li><li>选择<code>Install macOS Big Sur</code></li><li>等待一系列的安装过程后进入安装界面</li><li>选择磁盘工具，左上角<code>选择显示所有设备</code></li><li>选择要安装MacOS的磁盘，点击抹掉，名称：<code>随意，能分辨就行</code>、格式：<code>APFS</code>、方案：<code>GUID分区图</code>，抹掉完成后返回上一界面点击<code>安装macOS</code>。</li><li>一系列操作后就安装完了</li></ol><h2 id="系统设置"><a href="#系统设置" class="headerlink" title="系统设置"></a>系统设置</h2><p>先打开终端，输入几行命令：</p><pre><code>sudo spctl --master-disable    # 启用macOS安装应用允许任何来源sudo kextcache -i /            # 重建缓存</code></pre><p>如果出于某些原因，在/System/Library/Extensions/或者/Library/Extensions/修改了某些驱动，请使用以下命令重建缓存：</p><pre><code>sudo chown -R root:wheel /System/Library/Extensions/sudo chmod -R 755 /System/Library/Extensions/sudo kmutil install --update-allsudo kcditto</code></pre><h2 id="将EFI文件移动到磁盘中"><a href="#将EFI文件移动到磁盘中" class="headerlink" title="将EFI文件移动到磁盘中"></a>将EFI文件移动到磁盘中</h2><p>这一步是为了让系统能脱离U盘进入Mac系统。<br>这一步可以使用hackintool来完成，挂载你的磁盘和U盘的EFI分区，然后将EFI复制到磁盘的EFI分区就可以。<br>最后拔掉U盘，至此黑苹果安装完成。</p><blockquote><p>参考资料<br><a href="https://mp.weixin.qq.com/s/UNtxsMIaKISyH6uRNt0LzQ" target="_blank" rel="noopener">https://mp.weixin.qq.com/s/UNtxsMIaKISyH6uRNt0LzQ</a><br><a href="https://github.com/cheneyxx/Hackintosh-10400-B460M-MORTAR" target="_blank" rel="noopener">https://github.com/cheneyxx/Hackintosh-10400-B460M-MORTAR</a></p></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> 黑苹果 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 黑苹果 </tag>
+            
+            <tag> 装机 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Hexo博客定制</title>
       <link href="/posts/b050203a/"/>
       <url>/posts/b050203a/</url>
