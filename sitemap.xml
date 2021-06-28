@@ -23,14 +23,14 @@
   </url>
   
   <url>
-    <loc>https://www.alanwang.site/categories/index.html</loc>
+    <loc>https://www.alanwang.site/friends/index.html</loc>
     
     <lastmod>2021-04-27</lastmod>
     
   </url>
   
   <url>
-    <loc>https://www.alanwang.site/friends/index.html</loc>
+    <loc>https://www.alanwang.site/categories/index.html</loc>
     
     <lastmod>2021-04-27</lastmod>
     
@@ -135,14 +135,14 @@
   </url>
   
   <url>
-    <loc>https://www.alanwang.site/posts/829819a3/</loc>
+    <loc>https://www.alanwang.site/posts/cf86baf1/</loc>
     
     <lastmod>2020-05-16</lastmod>
     
   </url>
   
   <url>
-    <loc>https://www.alanwang.site/posts/cf86baf1/</loc>
+    <loc>https://www.alanwang.site/posts/829819a3/</loc>
     
     <lastmod>2020-05-16</lastmod>
     
@@ -193,6 +193,20 @@
 
   
   <url>
+    <loc>https://www.alanwang.site/tags/%E9%BB%91%E8%8B%B9%E6%9E%9C/</loc>
+    <lastmod>2021-06-28</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.alanwang.site/tags/%E8%A3%85%E6%9C%BA/</loc>
+    <lastmod>2021-06-28</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.alanwang.site/tags/Hexo/</loc>
     <lastmod>2021-06-28</lastmod>
     <changefreq>daily</changefreq>
@@ -215,20 +229,6 @@
   
   <url>
     <loc>https://www.alanwang.site/tags/DIY%E5%8D%9A%E5%AE%A2/</loc>
-    <lastmod>2021-06-28</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.alanwang.site/tags/%E9%BB%91%E8%8B%B9%E6%9E%9C/</loc>
-    <lastmod>2021-06-28</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.alanwang.site/tags/%E8%A3%85%E6%9C%BA/</loc>
     <lastmod>2021-06-28</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -284,6 +284,13 @@
   </url>
   
   <url>
+    <loc>https://www.alanwang.site/tags/%E6%B5%8B%E8%AF%95%E6%A0%87%E7%AD%BE/</loc>
+    <lastmod>2021-06-28</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.alanwang.site/tags/%E9%83%A8%E7%BD%B2/</loc>
     <lastmod>2021-06-28</lastmod>
     <changefreq>daily</changefreq>
@@ -299,13 +306,6 @@
   
   <url>
     <loc>https://www.alanwang.site/tags/webpack4-0/</loc>
-    <lastmod>2021-06-28</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.alanwang.site/tags/%E6%B5%8B%E8%AF%95%E6%A0%87%E7%AD%BE/</loc>
     <lastmod>2021-06-28</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -349,14 +349,14 @@
 
   
   <url>
-    <loc>https://www.alanwang.site/categories/Hexo%E5%8D%9A%E5%AE%A2/</loc>
+    <loc>https://www.alanwang.site/categories/%E9%BB%91%E8%8B%B9%E6%9E%9C/</loc>
     <lastmod>2021-06-28</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://www.alanwang.site/categories/%E9%BB%91%E8%8B%B9%E6%9E%9C/</loc>
+    <loc>https://www.alanwang.site/categories/Hexo%E5%8D%9A%E5%AE%A2/</loc>
     <lastmod>2021-06-28</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -377,6 +377,13 @@
   </url>
   
   <url>
+    <loc>https://www.alanwang.site/categories/%E6%B5%8B%E8%AF%95%E5%88%86%E7%B1%BB/</loc>
+    <lastmod>2021-06-28</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.alanwang.site/categories/%E5%89%8D%E7%AB%AF/webpack4-0%E5%AD%A6%E4%B9%A0%E6%80%BB%E7%BB%93/</loc>
     <lastmod>2021-06-28</lastmod>
     <changefreq>daily</changefreq>
@@ -385,13 +392,6 @@
   
   <url>
     <loc>https://www.alanwang.site/categories/%E5%89%8D%E7%AB%AF/React/</loc>
-    <lastmod>2021-06-28</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.alanwang.site/categories/%E6%B5%8B%E8%AF%95%E5%88%86%E7%B1%BB/</loc>
     <lastmod>2021-06-28</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
